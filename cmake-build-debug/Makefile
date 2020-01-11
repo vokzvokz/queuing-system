@@ -122,6 +122,33 @@ SMO_alpha/fast:
 	$(MAKE) -f CMakeFiles\SMO_alpha.dir\build.make CMakeFiles/SMO_alpha.dir/build
 .PHONY : SMO_alpha/fast
 
+QueuingSystem.obj: QueuingSystem.cpp.obj
+
+.PHONY : QueuingSystem.obj
+
+# target to build an object file
+QueuingSystem.cpp.obj:
+	$(MAKE) -f CMakeFiles\SMO_alpha.dir\build.make CMakeFiles/SMO_alpha.dir/QueuingSystem.cpp.obj
+.PHONY : QueuingSystem.cpp.obj
+
+QueuingSystem.i: QueuingSystem.cpp.i
+
+.PHONY : QueuingSystem.i
+
+# target to preprocess a source file
+QueuingSystem.cpp.i:
+	$(MAKE) -f CMakeFiles\SMO_alpha.dir\build.make CMakeFiles/SMO_alpha.dir/QueuingSystem.cpp.i
+.PHONY : QueuingSystem.cpp.i
+
+QueuingSystem.s: QueuingSystem.cpp.s
+
+.PHONY : QueuingSystem.s
+
+# target to generate assembly for a file
+QueuingSystem.cpp.s:
+	$(MAKE) -f CMakeFiles\SMO_alpha.dir\build.make CMakeFiles/SMO_alpha.dir/QueuingSystem.cpp.s
+.PHONY : QueuingSystem.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... SMO_alpha
 	@echo ... edit_cache
+	@echo ... QueuingSystem.obj
+	@echo ... QueuingSystem.i
+	@echo ... QueuingSystem.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

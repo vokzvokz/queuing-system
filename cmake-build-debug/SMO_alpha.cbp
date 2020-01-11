@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Vladimir/CLionProjects/SMO_alpha/QueuingSystem.cpp">
+			<Option target="SMO_alpha"/>
+		</Unit>
+		<Unit filename="C:/Users/Vladimir/CLionProjects/SMO_alpha/QueuingSystem.h">
+			<Option target="SMO_alpha"/>
+		</Unit>
 		<Unit filename="C:/Users/Vladimir/CLionProjects/SMO_alpha/main.cpp">
 			<Option target="SMO_alpha"/>
 		</Unit>

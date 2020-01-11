@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SMO_alpha.dir/main.cpp.obj"
+  "CMakeFiles/SMO_alpha.dir/QueuingSystem.cpp.obj"
   "SMO_alpha.pdb"
   "SMO_alpha.exe"
   "SMO_alpha.exe.manifest"
