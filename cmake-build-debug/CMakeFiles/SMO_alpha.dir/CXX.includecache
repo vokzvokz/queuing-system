@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Vladimir/CLionProjects/SMO_alpha/QueuingSystem.h
+string
+-
+
+C:/Users/Vladimir/CLionProjects/SMO_alpha/main.cpp
+cstdio
+-
+cmath
+-
+iostream
+-
+cstdlib
+-
+ctime
+-
+QueuingSystem.h
+C:/Users/Vladimir/CLionProjects/SMO_alpha/QueuingSystem.h
+
