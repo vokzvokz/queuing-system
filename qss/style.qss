@@ -1,0 +1,42 @@
+QWidget {background-color: #1b2631;}
+
+QLabel{
+  color: #f1c40f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+QLabel#main_label{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+QPushButton {
+  width: 100px;
+  margin: 0px 10px 0px 10px;
+  text-decoration: none;
+  outline: none;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  position: relative;
+  border: 2px solid #f1c40f;
+  color: #f1c40f;
+  font-family: 'Montserrat', sans-serif;
+}
+QPushButton:hover {
+  background-color: #f1c40f;
+  color: #1b2631;
+}
+QDoubleSpinBox {
+    padding-right: 15px; /* make room for the arrows */
+    border: 2px solid #f1c40f;
+    background-color: #1b2631;
+    color: #f1c40f;
+}
+
+QLineEdit {
+    border: 2px solid #f1c40f;
+    background-color: #1b2631;
+    color: #f1c40f;
+}
+
+
