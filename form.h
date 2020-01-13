@@ -26,6 +26,7 @@ private slots:
 private:
     Ui::Form *ui;
     Response *response;
+    QString path_to_resourses;
     //QFile datafile;
     //QTextStream outstream;
 };
